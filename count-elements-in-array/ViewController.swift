@@ -13,6 +13,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let numbers = [4, 10, 2, 5, 17]
+
+        var sumOfNumbers = 0
+
+        for number in numbers {
+            sumOfNumbers += number
+        }
+
+        print(sumOfNumbers)
+
+        
+        
     }
 
 
